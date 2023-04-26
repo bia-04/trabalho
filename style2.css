@@ -41,7 +41,6 @@ header {
 .equipi {
     background-image: linear-gradient, #000000, #8f0ce7;
     color: black;
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
@@ -49,6 +48,8 @@ header {
 
 .tudo {
     width: 35%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
 }
 
 .equipi2 {
