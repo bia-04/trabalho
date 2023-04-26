@@ -77,3 +77,7 @@ footer{
     color: azure;
     text-align: center;
 }
+.sobre a .equipi a{
+    text-decoration: none; 
+    color: black;
+}
