@@ -15,3 +15,13 @@ header {
     border-radius: 50%;
     padding: 5px 5px;
 }
+.corpo-conteódo {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.8;
+}
+
+.roda-pé {
+    background-color: rgb(39, 228, 187);
+    justify-content: center;
+    ;
+}
