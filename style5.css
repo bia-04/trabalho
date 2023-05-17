@@ -29,3 +29,8 @@ header {
     margin: 10px 0px 5px 0px;
     color: rgb(255, 255, 255);
 }
+.final {
+    text-align: center;
+    color: white;
+    line-height: 2.5;
+}
