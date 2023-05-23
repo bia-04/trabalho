@@ -127,7 +127,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #c20b0b;
 }
 
 .dropdown:hover .dropdown-content {
@@ -137,7 +137,7 @@ li.dropdown {
 .formulario{
     width: 400px;
     padding: 30px;
-    border:1px solid #c20b0b;
+    border:1px solid #000000;
 }
 .formulario p{
     width: 100%;
@@ -166,7 +166,7 @@ textarea{
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #c20b0b;
     outline: none;
 }
 input#nao{
@@ -180,7 +180,7 @@ textarea{
 }
 input[type=submit]{
     display: block;
-    background-color: #ccc;
+    background-color: #c20b0b;
     height: 35px;
     border: none;
     outline: 0;
