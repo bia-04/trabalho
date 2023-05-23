@@ -145,3 +145,7 @@ li.dropdown {
     display: flex;
     justify-content: center;
 }
+.agaum {
+    width: 30%;
+    padding: 40px;
+}
