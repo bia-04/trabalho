@@ -166,7 +166,7 @@ textarea{
     height: 30px;
     line-height: 30px;
     border-radius: 15px;
-    border: 1px solid #c20b0b;
+    border: 1px solid #000000;
     outline: none;
 }
 input#nao{
@@ -180,7 +180,7 @@ textarea{
 }
 input[type=submit]{
     display: block;
-    background-color: #63c6ff;
+    background-color: #56e4e9;
     height: 35px;
     border: none;
     outline: 0;
