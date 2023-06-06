@@ -12,12 +12,12 @@ header {
 
 .cabeçalho-imagem {
     width: 5%;
-    border-radius: 50%;
+    border-radius: 200%;
     padding: 5px 5px;
 }
 .formulario{
     width: 400px;
-    padding: 400px;
+    padding: 30px;
     border:1px solid #000000;
 }
 .formulario p{
