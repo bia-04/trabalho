@@ -196,7 +196,7 @@ input[type=submit]{
 }
 .banner__pesquisa {
     background-color: transparent;
-    border: 1px solid var(--branco);
+    border: 1px solid var(--preto);
     color: var(--branco);
     border-radius: 24px;
 }
