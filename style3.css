@@ -28,28 +28,6 @@ header {
     width: 100%;
     margin: 15px 0;
 }
-.field label, 
-.field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-.radiobox label{
-    width: auto;
-    display: inline-block;
-}
-input[type=text],
-input[type=email],
-textarea{
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #000000;
-    outline: none;
-}
 input#nao{
     margin-left: 30px;
 }
