@@ -17,7 +17,7 @@ header {
 }
 .formulario{
     width: 400px;
-    padding: 30px;
+    padding: 100px;
     border:1px solid #000000;
 }
 .formulario p{
@@ -25,7 +25,7 @@ header {
     font-size: 1.5em;
 }
 .field{
-    width: 10%;
+    width: 100%;
     margin: 15px 0;
 }
 input#nao{
