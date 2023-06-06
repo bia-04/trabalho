@@ -194,10 +194,6 @@ input[type=submit]{
     font-size: 18px;
     font-weight: 700;
 }
-.banner__texto {
-    font-weight: 500;
-    margin: 1em 0;
-}
 .banner__pesquisa {
     background-color: transparent;
     border: 1px solid var(--branco);
