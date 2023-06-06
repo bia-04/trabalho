@@ -163,17 +163,6 @@ li.dropdown {
     width: 100%;
     margin: 15px 0;
 }
-.field label, 
-.field span{
-    padding-left: 10px;
-    font-size: 1.1em;
-    display: block;
-    width: 100%;
-}
-.radiobox label{
-    width: auto;
-    display: inline-block;
-}
 input[type=text],
 input[type=email],
 textarea{
