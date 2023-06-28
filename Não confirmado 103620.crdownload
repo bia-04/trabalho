@@ -1,0 +1,132 @@
+﻿<!doctype html>
+<html ng-app="site" openPage="blog">
+	<head>
+		<base href="/site" />
+		<meta charset="utf-8"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+        <meta name="MobileOptimized" content="width"/>
+        <meta name="HandheldFriendly" content="true"/>
+		<meta property="og:site_name" content="Ícone Assessoria Empresarial" />
+		<meta class="facebook" property="og:title" content="Empreendedorismo vem de berço? - Blog - Ícone Empresarial - Contabilidade e Consultoria Empresarial - Divinópolis/MG" />
+		<meta class="facebook" property="og:description" content="Seria o empreendedorismo um dom? Uma predestinação? Algo reservado apenas para um seleto grupo de pessoas que tiveram a sorte de nascerem com certas características especiais? Ou seria possível qualquer pessoa se tornar um empreendedor?" />
+		<meta class="facebook" name="title" content="Empreendedorismo vem de berço? - Blog - Ícone Empresarial - Contabilidade e Consultoria Empresarial - Divinópolis/MG" /> 
+		<meta class="facebook" name="description" content="Seria o empreendedorismo um dom? Uma predestinação? Algo reservado apenas para um seleto grupo de pessoas que tiveram a sorte de nascerem com certas características especiais? Ou seria possível qualquer pessoa se tornar um empreendedor?" /> 
+		<meta class="facebook" name="keywords" content="Ícone, Contabilidade, Contador, Divinópolis, Consultoria, Mentoria, Gestão, Abertura de Empresa, Alvará, Legalização" /> 
+		<meta property="og:url" content="http://sejaicone.com.br/blog/artigos/20197/Empreendedorismo-vem-de-berco" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="http://cdn.myhappen.com/files-companies/28978_blog_posts_object_image_20406.jpeg" />
+		<meta name="generator" content="http://diretiva1.com.br" />
+		<title ng-init="title = 'Ícone Empresarial - Contabilidade e Consultoria Empresarial - Divinópolis/MG'" ng-bind-html="tCtrl.getTitle() | htmlTrusted">Empreendedorismo vem de berço? - Blog - Ícone Empresarial - Contabilidade e Consultoria Empresarial - Divinópolis/MG</title>
+		<meta name="google-site-verification" content="LRXe6gSBaNuNsSV_lPbNqPooveqM3LRYHLlGlGSza6o" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="/2.0/css/fonts/mimetypes3/style.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93560271-3">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93560271-3');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '671053923340225');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=671053923340225&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script>
+/*
+	function newsletterSubscribed(){
+		document.body.setAttribute("popup","0");
+		localStorage.subscribed = 1;
+	};
+	function newsletterPopup(){
+		var subscribed = 0;
+		if(localStorage){
+			if(localStorage.subscribed){
+				if(localStorage.subscribed == 1){
+					subscribed = 1;
+				};
+			};
+		};
+		if(subscribed == 0){
+			document.body.setAttribute("popup","1");
+			if(!document.querySelector('block.popup > .close')){
+				var close = document.createElement("span");
+				close.setAttribute("class","close material-icons");
+				close.innerHTML="clear";
+				close.onclick = function(){
+					document.body.setAttribute("popup","0");
+				};
+				document.querySelector("block.popup").appendChild(close);
+			};
+		};
+	};
+	setTimeout(newsletterPopup,10000);
+*/
+	window.onload = function(){
+		if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
+			document.body.setAttribute('ios','1');
+			console.log('is iOS');
+		};
+		if(window.location.href.indexOf('noheader') > -1){
+			document.body.setAttribute('noheader','1');
+		};
+	};
+	thankYouPageId = 'obrigado-pelo-seu-contato';
+</script>
+<meta name="google-site-verification" content="H4wL8I1rWjFZdmjBDFy7lPQBro6Ib6cUk1eCsrEHeeo" />		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.min.js"></script>
+		<script src="/js/angular.ui.mask.js"></script>
+		<link rel="stylesheet" href="/site/css.php?site=28978">
+		<link rel="stylesheet" href="/2.0/css/material.icons.css">
+		<link rel="stylesheet" href="/2.0/css/files.icons.css">
+		<script src="/site/js.php?site=28978"></script>
+	</head>
+	<body class="loading-{{loading == true}} loadFx{{loadFx}} logged-{{logged}}">
+		<div ng-view></div>
+		<div class="diretiva1" logged="{{logged}}">
+			<div l>
+				<a logout ng-if="logged" ng-click="logout()" href="javascript:;">Sair</a>
+			</div>
+			<div r>
+				Feito com carinho por <a href="http://diretiva1.com.br" target="_blank">Diretiva1</a>
+			</div>
+		</div>
+		<div loading ng-if="loading == 1"><span></span></div>
+		<script type="text/javascript">
+/*google*/
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-40512261-3', 'auto'); ga('require', 'linkid'); ga('send', 'pageview');
+/*azure*/
+var appInsights=window.appInsights||function(config){
+function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+}({
+	instrumentationKey:"422b05d0-1f59-45ec-9014-b27d9aab58be"
+});
+   
+window.appInsights=appInsights;
+appInsights.trackPageView();
+</script>	</body>
+</html>
