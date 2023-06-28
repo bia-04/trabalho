@@ -186,6 +186,6 @@ input[type=submit]{
 .banner__pesquisa {
     background-color: transparent;
     border: 1px solid black;
-    color: rgb(212, 7, 7);
+    color: rgb(0, 0, 0);
     border-radius: 24px;
 }
