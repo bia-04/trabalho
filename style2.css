@@ -213,7 +213,7 @@ input[type=submit]{
     display: none;
 }
 .slider label {
-    background-color: #000;
+    background-color: #fa0000;
     bottom: 10px;
     cursor: pointer;
     display: block;
