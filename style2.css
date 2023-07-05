@@ -1,246 +1,249 @@
-header {
-    background-color: #c20b0b;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-}
-
-.head-img {
-    width: 5%;
-    border-radius: 50%;
-    padding: 5px 5px;
-}
-
-.homo {
-    display: inline-block;
-    margin: 0 16px;
-    padding: 24px 0;
-    font-size: 24px;
-}
-
-* {
-    margin: 7;
-    padding: 5;
-}
-
-.trabaio {
-    background-image: linear-gradient, #002ae6, #e70cb0;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.tudot {
-    width: 35%;
-}
-
-.trabalio {
-    padding: 24px 0;
-}
-
-.equipi {
-    background-image: linear-gradient, #000000, #8f0ce7;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.tudo {
-    width: 35%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% ;
-}
-
-.equipi2 {
-    padding: 24px 0;
-}
-.rapazes {
-    display: flex
+@media screen and (min-width: 1029px) {
+    header {
+        background-color: #c20b0b;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+    }
     
-
-}
-.teabriz {
-    width: 50%;
-}
-.ibasela {
-    width: 40%;
-}
-.naicoly {
-    width: 50%;
-}
-.geulia {
-    width: 50%;
-}
-footer{
-    background-color: #c20b0b;
-    padding: 30px 0;
-    color: azure;
-    text-align: center;
-}
-.sobre a equipi a{
-    text-decoration: none; 
-    color: black;
-}
-li {
-    float: left;
-}
-
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: rgb(0, 0, 0);
-}
-
-li.dropdown {
-    display: inline-block;
-    font-size: 20px;
-    padding: 15px 0px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: rgb(255, 108, 108);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
-
-.dropdown-content a:hover {
-    background-color: #c20b0b;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-
-}
-.formulario{
-    width: 400px;
-    padding: 30px;
-    border:1px solid #000000;
-}
-.formulario p{
-    width: 100%;
-    font-size: 1.5em;
-}
-.field{
-    width: 100%;
-    margin: 15px 0;
-}
-input[type=text],
-input[type=email],
-textarea{
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #000000;
-    outline: none;
-}
-input#nao{
-    margin-left: 30px;
-}
-textarea{
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
-input[type=submit]{
-    display: block;
-    background-color: #56e4e9;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
-}
-.banner__titulo {
-    font-size: 18px;
-    font-weight: 700;
-}
-.banner__pesquisa {
-    background-color: transparent;
-    border: 1px solid black;
-    color: rgb(0, 0, 0);
-    border-radius: 24px;
-}
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-}
-.slider input {
-    display: none;
-}
-.slider label {
-    background-color: #fa0000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-}
-
-.slider li:nth-child(1) label {
-    left: 10px;
-}
-
-.slider li:nth-child(2) label {
-    left: 40px;
-}
-
-.slider li:nth-child(3) label {
-    left: 70px;
-}
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
+    .head-img {
+        width: 5%;
+        border-radius: 50%;
+        padding: 5px 5px;
+    }
+    
+    .homo {
+        display: inline-block;
+        margin: 0 16px;
+        padding: 24px 0;
+        font-size: 24px;
+    }
+    
+    * {
+        margin: 7;
+        padding: 5;
+    }
+    
+    .trabaio {
+        background-image: linear-gradient, #002ae6, #e70cb0;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .tudot {
+        width: 35%;
+    }
+    
+    .trabalio {
+        padding: 24px 0;
+    }
+    
+    .equipi {
+        background-image: linear-gradient, #000000, #8f0ce7;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .tudo {
+        width: 35%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25% ;
+    }
+    
+    .equipi2 {
+        padding: 24px 0;
+    }
+    .rapazes {
+        display: flex
+        
+    
+    }
+    .teabriz {
+        width: 50%;
+    }
+    .ibasela {
+        width: 40%;
+    }
+    .naicoly {
+        width: 50%;
+    }
+    .geulia {
+        width: 50%;
+    }
+    footer{
+        background-color: #c20b0b;
+        padding: 30px 0;
+        color: azure;
+        text-align: center;
+    }
+    .sobre a equipi a{
+        text-decoration: none; 
+        color: black;
+    }
+    li {
+        float: left;
+    }
+    
+    
+    li a,
+    .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    li.dropdown {
+        display: inline-block;
+        font-size: 20px;
+        padding: 15px 0px;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: rgb(255, 108, 108);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #c20b0b;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    
+    }
+    .formulario{
+        width: 400px;
+        padding: 30px;
+        border:1px solid #000000;
+    }
+    .formulario p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .field{
+        width: 100%;
+        margin: 15px 0;
+    }
+    input[type=text],
+    input[type=email],
+    textarea{
+        width: 100%;
+        padding-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        border: 1px solid #000000;
+        outline: none;
+    }
+    input#nao{
+        margin-left: 30px;
+    }
+    textarea{
+        line-height: 20px;
+        padding: 10px;
+        height: 90px;
+        resize: none;
+    }
+    input[type=submit]{
+        display: block;
+        background-color: #56e4e9;
+        height: 35px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .banner__titulo {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .banner__pesquisa {
+        background-color: transparent;
+        border: 1px solid black;
+        color: rgb(0, 0, 0);
+        border-radius: 24px;
+    }
+    .slider {
+        display: block;
+        height: 293px;
+        width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .slider li {
+        list-style: none;
+        position: absolute;
+    }
+    
+    .slider img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        vertical-align: top;
+    }
+    .slider input {
+        display: none;
+    }
+    .slider label {
+        background-color: #fa0000;
+        bottom: 10px;
+        cursor: pointer;
+        display: block;
+        height: 10px;
+        position: absolute;
+        width: 10px;
+        z-index: 10;
+    }
+    
+    .slider li:nth-child(1) label {
+        left: 10px;
+    }
+    
+    .slider li:nth-child(2) label {
+        left: 40px;
+    }
+    
+    .slider li:nth-child(3) label {
+        left: 70px;
+    }
+    .slider img {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .slider li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+    
 }
