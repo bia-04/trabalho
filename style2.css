@@ -248,6 +248,6 @@
 @media screen and (max-width: 1128px){
     .rapazes {
         display: grid;
-        grid-template-columns: 50% 50%;
-        
+        grid-template-columns: 50% 50%;}
+
 }
