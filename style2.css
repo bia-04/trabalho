@@ -251,7 +251,7 @@
         grid-template-columns: 50% 50%;}
 
 }
-@media screen and (min-width: 312px) (max-width: 572px) {
+@media screen and (min-width: 52px) (max-width: 572px) {
     .slider {
         width: 508px;
         }
