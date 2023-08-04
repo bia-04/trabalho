@@ -254,10 +254,6 @@
 @media screen (max-width: 572px) {
     .slider {
         width: 175px;
-        display: block;
-        height: 293px;
-        margin-top: 20px;
-        position: relative;
     }
         }
     
