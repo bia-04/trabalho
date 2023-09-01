@@ -214,3 +214,5 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
+.teclado {display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); padding: 10px; background-color: greenyellow;}
+.tecla {background-color: aqua; color: blue;}
