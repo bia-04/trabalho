@@ -217,8 +217,8 @@ input[type=submit]{
 .teclado {display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); padding: 10px; background-color: rgb(77, 0, 107);}
 .tecla {background-color: rgb(245, 14, 187); color: rgb(0, 0, 0);}
 .tecla.ativa, 
-.tecla:active{color:palevioletred; background-color: red; outline: none; }
+.tecla:active{color:palevioletred; background-color: rgb(255, 187, 240); outline: none; }
 .tecla.focus,
 .tecla:focus {outline: none; box-shadow: 1px 1px 10px purple;}
 .tecla.active:focus,
-.tecla.tecla.active:focus{box-shadow: 3px 3px 0 peru;}
+.tecla.tecla.active:focus{box-shadow: 3px 3px 0 rgb(157, 84, 216);}
