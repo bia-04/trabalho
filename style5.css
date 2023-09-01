@@ -216,3 +216,9 @@ input[type=submit]{
 }
 .teclado {display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); padding: 10px; background-color: greenyellow;}
 .tecla {background-color: aqua; color: blue;}
+.tecla.ativa, 
+.tecla:active{color:palevioletred; background-color: red; outline: none; }
+.tecla.focus,
+.tecla:focus {outline: none; box-shadow: 1px 1px 10px purple;}
+.tecla.active:focus,
+.tecla.tecla.active:focus{box-shadow: 3px 3px 0 peru;}
