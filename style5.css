@@ -214,8 +214,8 @@ input[type=submit]{
     text-align: center;
     border-radius: 15px;
 }
-.teclado {display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); padding: 10px; background-color: greenyellow;}
-.tecla {background-color: aqua; color: blue;}
+.teclado {display: grid; gap: 10px; grid-template-columns: repeat(3, 1fr); padding: 10px; background-color: rgb(77, 0, 107);}
+.tecla {background-color: rgb(245, 14, 187); color: rgb(0, 0, 0);}
 .tecla.ativa, 
 .tecla:active{color:palevioletred; background-color: red; outline: none; }
 .tecla.focus,
