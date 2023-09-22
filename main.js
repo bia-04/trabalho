@@ -8,7 +8,7 @@ let contador = 0;
 
 while (contador < lista.length) {
     lista[contador].onclick = function () {
-        tocar('#som_tecla_toim');
+        contar('#som_tecla_toim');
     }
     const classe = lista[contador].classList[1];
     console.log(classe);
