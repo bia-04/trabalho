@@ -12,9 +12,9 @@ while (contador < lista.length) {
 
     const idAudio = `#som_${classe}`;
     console.log(idAudio);
-    
+
     lista[contador].onclick = function () {
-        contar('#som_tecla_toim');
+        contar('idAudio');
     }
    
 
