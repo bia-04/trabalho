@@ -16,8 +16,14 @@ while (contador < lista.length) {
     lista[contador].onclick = function () {
         contar(idAudio);
     }
-
     contador = contador + 1;
     console.log (contador);
+    tecla.onkeydown = function(evento) {
+        tecla.classList.add('ativa');
+        console.log(evento.code === 'Enter' || evento.code === 'Space');
+    }
+    tecla.onkeyup = function () {
+        tecla.classList.remove('ativa');
+    }
    
 }
