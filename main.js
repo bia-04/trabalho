@@ -14,4 +14,6 @@ while (contador < lista.length) {
     console.log(classe);
     contador = contador + 1;
     console.log (contador);
+    const idAudio = `#som_${classe}`;
+    console.log(idAudio);
 }
