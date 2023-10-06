@@ -6,7 +6,7 @@ const lista = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
-for (contador < lista.length) {
+for (let contador = 0; contador < lista.length; contador++) {
     tecla = lista[contador];
     const classe = tecla.classList[1];
     console.log(classe);
