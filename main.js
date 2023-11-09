@@ -4,8 +4,6 @@ function contar(idAudio) {
  
 const lista = document.querySelectorAll('.tecla');
 
-let contador = 0;
-
 for (let contador = 0; contador < lista.length; contador++) {
     tecla = lista[contador];
     const classe = tecla.classList[1];
@@ -17,7 +15,6 @@ for (let contador = 0; contador < lista.length; contador++) {
     tecla.onclick = function () {
         contar(idAudio);
     }
-    contador = contador + 1;
     console.log (contador);
     tecla.onkeydown = function(evento) {
         tecla.classList.add('ativa');
