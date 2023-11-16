@@ -94,30 +94,29 @@
     <audio src="audios/keyx (1).wav" id="som_tecla_tic"></audio>
     <audio src="audios/keyc (2).wav" id="som_tecla_tom"></audio>
 
-    <div class=”calculator”>
-        <div class=”calculator__display”>0</div>
-        <div class=”calculator__keys”> … </div>
-      </div>
-
-      <div class="calculator__keys">
-        <button class="key--operator" data-action="add">+</button>
-        <button class="key--operator" data-action="subtract">-</button>
-        <button class="key--operator" data-action="multiply"> &times; </button>
-        <button class="key--operator" data-action="divide">÷</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>0</button>
-        <button data-action="decimal">.</button>
-        <button data-action="clear">AC</button>
-        <button class="key--equal" data-action="calculate">=</button>
-      </div>
+    <input type="text" id="txtValor1">
+    <select id="operadores" onchange="ControleDeSelecao();">
+        <optgroup label="Basico">
+            <option value="+">	+(somar)</option>
+            <option value="-">	-(subtrair)</option>
+            <option value="*">	*(multiplicar)</option>
+            <option value="/">	/(dividir)</option>
+        </optgroup>
+        <optgroup label="Outros">
+            <option value="raiz">	 	  Raiz	</option>
+            <option value="potencia">	Potência</option>
+            <option value="fatorial">	Fatorial</option>
+            <option value="fibonacci">Fibonaci</option>					
+            <option value="porcento">	Porcentagem</option>
+            <option value="media">		Média</option>
+            <option value="calc">		  Develop Calc</option>
+        </optgroup>
+    </select>
+<input type="text" id="txtValor2" size="5"><br>		
+<input type="button" onclick="Calcular('txtValor1', 'txtValor2')" value="Calcular">
+<input type="button" onclick="Limpar('txtValor1', 'txtValor2')" value="Limpar">
+<p id="saida">Resultado:</p>
+<hr>		
 
     <footer class="roda-pé">
         <p class="final"> Trabalho feito em matemática II</p>
